@@ -3,11 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Abt from './Abt.js';
+import Code from './Code.js';
+import './hole.css';
+import Nav from './Nav.js';
+import Train from './Train.js';
+import Next from './Next.js';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+     
     <App />
+   <Abt />
+   <Code />
+   <Nav />
+   <Train/>
+   <Next/>
+  
   </React.StrictMode>
 );
 
